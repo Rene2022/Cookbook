@@ -8,6 +8,6 @@ h1 {
 }
 
 .Homepic {
+    display: flex;
     justify-content: end;
-    align-self: flex-end;
 }
