@@ -6,3 +6,8 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: indigo;
 }
+
+.Homepic {
+    justify-content: end;
+    align-self: flex-end;
+}
