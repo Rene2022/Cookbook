@@ -16,14 +16,14 @@
 }
 
 .logo {
-    margin-left: 25px;
-    margin-top: 25px;
-    justify-content: start;
-    
+    margin-left: 45px;
+    margin-top: 45px;
+    justify-content: start;    
 }
 
 h1 {
-    font-weight: 500px;
+    font-weight: 800px;
+    font-size: xx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: indigo;
     align-items: center;
@@ -31,6 +31,14 @@ h1 {
 
 #hero-section {
     display: flex;
+    justify-content: space-between;
+}
+
+.item1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    align-self: stretch;    
+    
 }
 
 .Homepic {
@@ -41,4 +49,21 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    font-size: large;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orangered;
+}
+
+.list {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    padding: 55px;
+}
+
+p {
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
