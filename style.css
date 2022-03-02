@@ -12,8 +12,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100px;
     margin-top: 100px;
-    align-self: stretch;
+    flex-direction: row;
 }
+
+
+
 
 .logo {
     margin-left: 45px;
@@ -65,6 +68,7 @@ h1 {
 .day {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orangered;
+    background-image: url(css/Images/pic.jpg);
 }
 
 .list {
@@ -134,5 +138,6 @@ p {
   padding-bottom: 2rem;
   }
  
+  
 
   
