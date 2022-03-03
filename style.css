@@ -15,6 +15,12 @@
     flex-direction: row;
 }
 
+.navbar a{
+  text-decoration: none;
+  margin: 2rem;
+  color:black;
+}
+
 .line1 {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -37,7 +43,9 @@ h1 {
     align-items: center;
 }
 
-
+.col-4 img {
+  border-radius: 1rem;
+}
 
 #hero-section {
     display: flex;
@@ -63,10 +71,8 @@ h1 {
     flex-wrap: wrap;
     flex-direction: column;
     font-size: large;
-    background-image: url(css/Images/pic.jpg);
-    width: 600px;
-    height: 450px;
-    background-repeat: no-repeat;
+    
+    
 }
 
 .heading {
@@ -78,6 +84,8 @@ h1 {
 .day {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orangered;
+    width: 600px;
+    height: 450px;
     
 }
 
