@@ -15,8 +15,12 @@
     flex-direction: row;
 }
 
-
-
+.line1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1;
+  border-top: 1px solid rgba(0, 0, 0, 0.493);
+}
 
 .logo {
     margin-left: 45px;
@@ -32,6 +36,8 @@ h1 {
     color: indigo;
     align-items: center;
 }
+
+
 
 #hero-section {
     display: flex;
@@ -57,6 +63,10 @@ h1 {
     flex-wrap: wrap;
     flex-direction: column;
     font-size: large;
+    background-image: url(css/Images/pic.jpg);
+    width: 600px;
+    height: 450px;
+    background-repeat: no-repeat;
 }
 
 .heading {
@@ -68,7 +78,7 @@ h1 {
 .day {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: orangered;
-    background-image: url(css/Images/pic.jpg);
+    
 }
 
 .list {
@@ -126,7 +136,6 @@ p {
 
   hr {
     margin-top: 30px;
-    
     margin-bottom: 30px;
     border: 1;
     border-top: 1px solid rgba(0, 0, 0, 0.493);
