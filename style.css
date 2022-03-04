@@ -27,6 +27,12 @@ body {
   font-size: 1.5rem;
 }
 
+.navbar a:hover{
+  color:rgb(5, 129, 88);
+  transition: 0.2s;
+  font-size: 22px;
+}
+
 hr {
   margin-top: 30px;
 }
@@ -129,7 +135,8 @@ h1 {
 
 .day {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: orangered;
+  color: rgb(255, 30, 0);
+  font-weight: 500px;
    /* width: 600px; */
   /* height: 450px; */
   
@@ -147,7 +154,34 @@ p {
     font-size: 1.5rem;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 150px;
+  transition: 0.5s;
+}
 
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding: 50px;
+
+}
 
 .container {
     width: 500px;
