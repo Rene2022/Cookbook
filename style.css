@@ -2,23 +2,33 @@
     margin: 0;  
 }
 
+body {
+  width: 100vw;
+  height: auto;
+}
+
 #heronav {
+    width: 100vw;
+    height: auto;
     display: flex;
-    justify-content: space-between;
 }
 
 .navbar {
-    justify-content: space-evenly;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100px;
-    margin-top: 100px;
-    flex-direction: row;
+    width: 40vw;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar a{
   text-decoration: none;
-  margin: 2rem;
+  margin: 1rem;
   color:black;
+  font-size: 1.5rem;
+}
+
+hr {
+  margin-top: 30px;
 }
 
 .line1 {
@@ -29,9 +39,11 @@
 }
 
 .logo {
-    margin-left: 45px;
-    margin-top: 45px;
-    justify-content: start;
+  width: 30rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5rem;
+  margin-top: 1rem;
     
 }
 
@@ -48,30 +60,64 @@ h1 {
 }
 
 #hero-section {
-    display: flex;
-    justify-content: space-between;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
 }
 
 .item1 {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    margin-top: 100px;
-    margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 25px; */
+  /* margin-top: 100px; */
+  /* margin-left: 100px; */
+  background-color: white;
+  opacity: 0.5;
+  width: 100vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
     
 }
 
-
-.Homepic {
-    justify-content: end;
+.item1 ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
 }
+
+.item1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.item2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.Homepic1 {
+  background-image: url(css/Images/Background_final.png);
+  width: 705px;
+  height: 467px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+} 
 
 .recipes-day {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
     font-size: large;
-    
+    display: flex;
     
 }
 
@@ -82,11 +128,11 @@ h1 {
 }
 
 .day {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: orangered;
-    width: 600px;
-    height: 450px;
-    
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orangered;
+   /* width: 600px; */
+  /* height: 450px; */
+  
 }
 
 .list {
@@ -98,6 +144,7 @@ h1 {
 p {
     font-weight: 100;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
 }
 
 
